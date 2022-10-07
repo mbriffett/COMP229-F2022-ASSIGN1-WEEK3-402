@@ -1,8 +1,11 @@
-// import third-party nodejs module Connect
-const connect = require('connect');
+// Third party modules
+import Express from "express";
+import cookieParser from "cookie-parser";
+import logger from "morgan";
+import session from "express-session";
 
 // instantiate app-server
-const app = connect();
+const app = Express();
 
 // custom middleware
 function helloWorld(req, res, next){
@@ -16,7 +19,7 @@ function byeWorld(req, res, next){
     res.end('Good Bye World');
 };
 
-// add middleware to connect application
+// add middleware to express application
 app.use('/hello',helloWorld);
 app.use('/bye', byeWorld);
 app.use('/', helloWorld);
