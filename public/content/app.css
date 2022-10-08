@@ -1,0 +1,33 @@
+#logoB {
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+#logoM {
+    padding-left: 0.2em;
+}
+#logo {
+    margin-left: 3em;
+    display: block;
+    background-color: rgb(75, 223, 223);
+    text-align: center;
+}
+#name {
+    padding-top: 0.19em;
+}
+
+#servicesCards,
+#projectsCards,
+#aboutText,
+#contactText,
+#homeText,
+#mission {
+    margin-top: 13%;
+}
+#resume,
+#projects,
+#services {
+    margin-top: 7.5%;
+}
+#contactCollapse {
+    padding: 2.19em;
+}
