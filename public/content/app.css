@@ -23,10 +23,13 @@
 #mission {
     margin-top: 13%;
 }
-#resume,
+#btnResume,
 #projects,
 #services {
     margin-top: 7.5%;
+}
+#btnSubmit {
+    margin-top: 3.25%;
 }
 #contactCollapse {
     padding: 2.19em;
